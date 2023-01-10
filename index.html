@@ -26,7 +26,7 @@
           <form>
             <div class="mb-3">
               <label for="input-image" class="form-label"> Image URL</label>
-              <input type="url" class="form-control" id="input-image" placeholder="https://example.com/image.png" required />
+              <input type="url" class="form-control" id="input-image" placeholder="https://example.com/image.png"/>
             </div>
             <div class="mb-3">
               <label for="Task-Title" class="form-label"> Task Title</label>
@@ -43,6 +43,26 @@
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
             <button type="button" class="btn btn-primary">Save changes</button>
           </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" 
+  id="Showtask" 
+  tabindex="-1" 
+  aria-labelledby="showtasklabal" 
+  aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="showtasklabal">Task Details</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body task_modal_body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
         </div>
       </div>
     </div>
@@ -91,7 +111,6 @@
         </section>
         <section class="mt-4">
           <div class="row task_content">
-            <h1>This where i will show my task </h1>
           </div>
         </section>
       </div>
